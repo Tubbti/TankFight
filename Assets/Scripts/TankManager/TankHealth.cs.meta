@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c2df60bf0a2811e4c99181d669045357
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tankExplosion: {instanceID: 0}
+  - tankExplosionAudio: {fileID: 8300000, guid: 5c27182a28a7eb942a362e6d198fe0e6,
+      type: 3}
+  - hpSlider: {instanceID: 0}
+  - GGAudio: {fileID: 8300000, guid: c17f124fcdc0f5446a72f793898bd74b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,15 +1,21 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Buffs
     - DestroyForTime
+    - Focus1
+    - Focus2
     - FocusCamera
     - FollowTarget
     - GameManager
+    - GreenBuff
     - LobbyMenu
     - MenuManager
+    - RedBuff
     - RedShell
     - RotationChangeSkin
     - Shell
+    - SpeedBuff
     - TankAttack
     - TankHealth
     - TankMovement
@@ -33,6 +39,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
@@ -67,6 +74,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -80,21 +89,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 1856}
     - Class: 114
-      Script: {instanceID: 2196}
+      Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2490}
+      Script: {instanceID: 2492}
     - Class: 114
-      Script: {instanceID: 2610}
+      Script: {instanceID: 2612}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 2974}
+      Script: {instanceID: 2980}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 3068}
     - Class: 114
-      Script: {instanceID: 57876}
+      Script: {instanceID: 3296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -150,6 +159,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -169,35 +180,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1804}
     - Class: 114
-      Script: {instanceID: 2196}
+      Script: {instanceID: 1850}
     - Class: 114
-      Script: {instanceID: 2490}
+      Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2610}
+      Script: {instanceID: 2320}
     - Class: 114
-      Script: {instanceID: 2656}
+      Script: {instanceID: 2492}
     - Class: 114
-      Script: {instanceID: 2760}
+      Script: {instanceID: 2612}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2974}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 3062}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 3400}
+      Script: {instanceID: 2790}
+    - Class: 114
+      Script: {instanceID: 2912}
+    - Class: 114
+      Script: {instanceID: 2980}
+    - Class: 114
+      Script: {instanceID: 3068}
     - Class: 114
       Script: {instanceID: 3408}
     - Class: 114
-      Script: {instanceID: 3686}
+      Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 3766}
+      Script: {instanceID: 3694}
     - Class: 114
-      Script: {instanceID: 4306}
+      Script: {instanceID: 3774}
     - Class: 114
-      Script: {instanceID: 4552}
+      Script: {instanceID: 4314}
     - Class: 114
-      Script: {instanceID: 4688}
+      Script: {instanceID: 4332}
+    - Class: 114
+      Script: {instanceID: 4562}
+    - Class: 114
+      Script: {instanceID: 4698}
+    - Class: 114
+      Script: {instanceID: 4746}
+    - Class: 114
+      Script: {instanceID: 4768}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -249,7 +274,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: ff8d3b8efaa491c8f90be5f336fc4bee
+      Hash: 9663f2e485ae91f1974e86b7de1e2818
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TankAttack
@@ -315,7 +340,13 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 5609690bf6127ead930243a25d920c6f
+      Hash: ece536e015b51b89df834ef4be1ce0b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpeedBuff
+  - hash:
+      serializedVersion: 2
+      Hash: e7d805737979861bb02cb6b9b1fa9595
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LobbyMenu
@@ -453,6 +484,12 @@ ScriptsOnlyBuild:
     className: Bloom
   - hash:
       serializedVersion: 2
+      Hash: ece536e015b51b89df834ef4be1ce0b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GreenBuff
+  - hash:
+      serializedVersion: 2
       Hash: ac330d336bdc602480a96d517ce35de0
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.ImageEffects
@@ -499,6 +536,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 3ce4598bc6e164ce03466d720f028ebd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Buffs
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -609,6 +652,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotationChangeSkin
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -639,7 +688,7 @@ ScriptsOnlyBuild:
     className: FocusCamera
   - hash:
       serializedVersion: 2
-      Hash: b2493a7757eed963ed9147209cb90c6f
+      Hash: 7b59993ca9496c08460e5b271873b346
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -849,6 +898,12 @@ ScriptsOnlyBuild:
     className: TankHealth
   - hash:
       serializedVersion: 2
+      Hash: 88f4dcc7b113d49d900982f3eec08674
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Focus1
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -933,12 +988,18 @@ ScriptsOnlyBuild:
     className: ColorCorrectionRamp
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: ece536e015b51b89df834ef4be1ce0b3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: RotationChangeSkin
+    className: RedBuff
+  - hash:
+      serializedVersion: 2
+      Hash: 88f4dcc7b113d49d900982f3eec08674
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Focus2
   platform: 24
   scenePathNames:
   - Assets/Scenes/Lobby.unity
   - Assets/Scenes/Main.unity
-  playerPath: "/home/tubbti/\u6587\u6863/Game Demo/Linux/Tanks_linux/Tanks_v3.7.x86_64"
+  playerPath: "/home/tubbti/\u6587\u6863/Game Demo/Linux/Tanks_linux/Tanks_v4.7.x86_64"

@@ -40,10 +40,9 @@ public class TankAttack : MonoBehaviour {
 	}
 	void Update () {
 		CDtime += Time.deltaTime ;
-		if(CDtime >0.3f)
+		if(CDtime >0.2f)
 		{
 			if (Input.GetButtonDown("Fire"+ playerNumber)) {
-	       //fire();
 			fireForce = minForce;
 	    	}
 			else if(Input.GetButton("Fire"+ playerNumber)) {

@@ -10,8 +10,6 @@ public class Buffs : MonoBehaviour
     private GameObject RedBuffs;
     private GameObject GreenBuffs;
     private GameObject SpeedBuffs;
-
-    public float BornCd=10;
     private float Cdcount = 0f;
     public Transform borntransform;
     void Start()
@@ -23,8 +21,8 @@ public class Buffs : MonoBehaviour
     }
     void Update()
     {
-        Cdcount += Time.deltaTime;
-        if(Cdcount % BornCd == 0)
+        Cdcount++;
+        if(Cdcount % 120== 0)
         {
             
             borntransform.position = new Vector3(Random.Range(-35f,35),0.7f,Random.Range(-35f,35));
@@ -33,7 +31,7 @@ public class Buffs : MonoBehaviour
             SpeedBuffs = GameObject.Instantiate(SpeedBuffPrefab,borntransform.position,borntransform.rotation);
             Invoke("ClearUp",20);
         }
-        if(Cdcount%30==0)
+        if(Cdcount%180==0)
         {
             borntransform.position = new Vector3(Random.Range(-35f,35),0.7f,Random.Range(-35f,35));
             RedBuffs = GameObject.Instantiate(RedBuffPrefab,borntransform.position,borntransform.rotation);

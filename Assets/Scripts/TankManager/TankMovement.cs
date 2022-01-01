@@ -43,6 +43,13 @@ public class TankMovement : MonoBehaviour {
     }
     public void SpeedUp()
     {
-        moveSpeed *= 1.7f;
+        moveSpeed += 1;
+        turnSpeed += 20;
+        Invoke("BackUp",5);
+    }
+    private void BackUp()
+    {
+        moveSpeed = 5;
+        turnSpeed = 90;
     }
 }

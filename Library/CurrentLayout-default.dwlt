@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 623
-  m_MinSize: {x: 679, y: 492}
+  m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 4144
+  controlID: 6078
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1090
     height: 623
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 4145
+  controlID: 6079
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,10 +169,10 @@ MonoBehaviour:
     y: 0
     width: 1090
     height: 262
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 4146
+  controlID: 6080
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,7 +401,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 54fbffff
+      m_ExpandedIDs: ccc1fffff4c1ffffdec2fffff0c2ffff80c4ffffa8c4ffff8ec5ffff9cc5ffffc0ccffffe8ccffffd2cdffffe4cdffff8eebffff2aeeffff50eeffff36efffff44efffff54fbffffd05c0000446200009281000054840000ae860000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -462,9 +462,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.8154542, y: 12.925795, z: -34.183575}
+    m_Target: {x: 27.609142, y: -36.675163, z: 11.962448}
     speed: 2
-    m_Value: {x: 2.8154542, y: 12.925795, z: -34.183575}
+    m_Value: {x: 27.609142, y: -36.675163, z: 11.962448}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -511,13 +511,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.38323295, y: -0.05894005, z: 0.024438825, w: -0.92149174}
+    m_Target: {x: -0.34315875, y: -0.39685446, z: 0.16288094, w: -0.8356481}
     speed: 2
-    m_Value: {x: -0.38321656, y: -0.058937527, z: 0.02443778, w: -0.9214523}
+    m_Value: {x: -0.3431434, y: -0.39683673, z: 0.16287366, w: -0.83561075}
   m_Size:
-    m_Target: 5.6528063
+    m_Target: 88.65304
     speed: 2
-    m_Value: 5.6528063
+    m_Value: 88.65304
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -624,22 +624,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scripts/Shell
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scripts/Shell
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "/home/tubbti/\u6587\u6863/Game Codes/TanksProject"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8460000
-    m_LastClickedID: 18152
-    m_ExpandedIDs: 00000000c8460000ca460000
+    m_SelectedIDs: fa6b0000
+    m_LastClickedID: 27642
+    m_ExpandedIDs: 000000001c4700001e470000a0620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,7 +667,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c8460000ca460000
+    m_ExpandedIDs: 000000001c4700001e470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

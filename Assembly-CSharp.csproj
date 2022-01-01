@@ -38,8 +38,10 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/TankManager/TankAttack.cs" />
      <Compile Include="Assets/Scripts/Shell/Shell.cs" />
+     <Compile Include="Assets/Scripts/Shell/SpeedBuff.cs" />
      <Compile Include="Assets/Scripts/Lobby/LobbyMenu.cs" />
      <Compile Include="Assets/Scripts/Menu/MenuManager.cs" />
+     <Compile Include="Assets/Scripts/Shell/GreenBuff.cs" />
      <Compile Include="Assets/Scripts/TankManager/TankMovement.cs" />
      <Compile Include="Assets/Scripts/Shell/Buffs.cs" />
      <Compile Include="Assets/Scripts/TankManager/Tank.cs" />
@@ -52,10 +54,8 @@
      <Compile Include="Assets/Scripts/CameraControl/Focus1.cs" />
      <Compile Include="Assets/Scripts/Shell/DestroyForTime.cs" />
      <Compile Include="Assets/Scripts/TankManager.cs" />
-     <Compile Include="Assets/Scripts/CameraControl/Focus2.cs" />
      <Compile Include="Assets/Scripts/Shell/RedBuff.cs" />
-     <Compile Include="Assets/Scripts/Shell/GreenBuff.cs" />
-     <Compile Include="Assets/Scripts/Shell/SpeedBuff.cs" />
+     <Compile Include="Assets/Scripts/CameraControl/Focus2.cs" />
      <None Include="Assets/Fonts/Bowlby_One/OFL.txt" />
      <None Include="Assets/text.txt" />
     <Reference Include="UnityEngine">

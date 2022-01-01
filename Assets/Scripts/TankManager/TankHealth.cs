@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TankHealth : MonoBehaviour {
 
-    public float hp = 100;
+    public float hp = 200;
     public Slider hpSlider;
     public GameObject tankExplosion;  
     public AudioSource explosionAudio;
@@ -24,12 +24,12 @@ public class TankHealth : MonoBehaviour {
 	}
     private void SetHealth(float HP)
     {
-        hpSlider.value = HP/100;
+        hpSlider.value = HP/200;
     }
     public void ResetHealth()
     {
-        hp = 100;
-        hpSlider.value = hp/100;
+        hp = 200;
+        hpSlider.value = hp/200;
     }
 	// Update is called once per frame
     public void RushDamage()

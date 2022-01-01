@@ -31,7 +31,6 @@ public class GameManager : MonoBehaviour
         MainCamera = GameObject.Find("Main Camera");
         camera_F = GameObject.Find("Camera_F");
         camera_F.SetActive(false);
-        MainCamera.SetActive(true);
         camera_1.SetActive(false);
         camera_2.SetActive(false);
         spawnTanks();
